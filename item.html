@@ -1,56 +1,25 @@
 <!DOCTYPE html>
-
 <html lang="ja">
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品ページ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
+    <header>
+        <button id="loginButton">ログイン</button>
+        <span id="usernameDisplay"></span>
+    </header>
     <main>
-        <div class="container">
-    
-            <div class="product-container">
-                <div class="product-image">
-                    <img src="img/item1.png" alt="商品画像">
-                </div>
-                <div class="product-info">
-                    <p>商品名: サンプル商品1</p>
-                    <p>商品カテゴリ: カテゴリ1</p>
-                    <p>価格: 1,000円</p>
-                    <div class="button">
-                        <a href="./thanks.html">購入する</a>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="product-container">
-                <div class="product-image">
-                    <img src="img/item1.png" alt="商品画像">
-                </div>
-                <div class="product-info">
-                    <p>商品名: サンプル商品2</p>
-                    <p>商品カテゴリ: カテゴリ2</p>
-                    <p>価格: 2,000円</p>
-                    <div class="button">
-                        <a href="./thanks.html">購入する</a>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="product-container">
-                <div class="product-image">
-                    <img src="img/item1.png" alt="商品画像">
-                </div>
-                <div class="product-info">
-                    <p>商品名: サンプル商品3</p>
-                    <p>商品カテゴリ: カテゴリ3</p>
-                    <p>価格: 3,000円</p>
-                    <div class="button">
-                        <a href="./thanks.html">購入する</a>
-                    </div>
-                </div>
-            </div>
-    
-        </div>  
+        <h1>商品ページ</h1>
+        <div class="product">
+            <h2>商品名: サンプル商品</h2>
+            <p>商品カテゴリ: 電子機器</p>
+            <p>価格: 10,000円</p>
+            <a href="/thanks.html" class="purchaseButton">購入</a>
+        </div>
     </main>
-
+    <script src="script.js"></script>
 </body>
-
 </html>
